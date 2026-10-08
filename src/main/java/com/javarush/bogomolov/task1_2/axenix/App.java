@@ -1,10 +1,13 @@
-package com.javarush.bogomolov.axenix;
+package com.javarush.bogomolov.task1_2.axenix;
 
-import com.javarush.bogomolov.axenix.config.DbConfig;
-import com.javarush.bogomolov.axenix.repository.EmployeeDto;
-import com.javarush.bogomolov.axenix.repository.EmployeeRepository;
+import com.javarush.bogomolov.task1_2.axenix.config.DbConfig;
+import com.javarush.bogomolov.task1_2.axenix.repository.EmployeeDto;
+import com.javarush.bogomolov.task1_2.axenix.repository.EmployeeRepository;
+import com.javarush.bogomolov.task1_2.axenix.util.BubbleSortUtil;
+import com.javarush.bogomolov.task3.BubbleSort;
 
 import java.sql.SQLException;
+import java.util.Arrays;
 import java.util.List;
 
 public class App {
@@ -66,5 +69,8 @@ public class App {
         System.out.println(line);
         System.out.println();
         System.out.println("Всего строк: " + rows.size());
+
+        System.out.println(Arrays.toString(BubbleSortUtil.testArray));
+        System.out.println(Arrays.toString(BubbleSort.bubbleSort(BubbleSortUtil.testArray)));
     }
 }

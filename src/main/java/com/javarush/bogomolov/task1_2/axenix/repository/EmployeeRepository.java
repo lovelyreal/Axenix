@@ -1,8 +1,8 @@
-package com.javarush.bogomolov.axenix.repository;
+package com.javarush.bogomolov.task1_2.axenix.repository;
 
 
-import com.javarush.bogomolov.axenix.config.DbConfig;
-import com.javarush.bogomolov.axenix.util.SQLcommands;
+import com.javarush.bogomolov.task1_2.axenix.config.DbConfig;
+import com.javarush.bogomolov.task1_2.axenix.util.SQLcommands;
 
 import java.sql.*;
 import java.util.ArrayList;

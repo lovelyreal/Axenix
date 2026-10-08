@@ -1,4 +1,4 @@
-package com.javarush.bogomolov.axenix.config;
+package com.javarush.bogomolov.task1_2.axenix.config;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package com.javarush.bogomolov.axenix.util;
+package com.javarush.bogomolov.task1_2.axenix.util;
 
 public interface SQLcommands {
     String selectEmployeeFullNameDepartmentAndPosition = """
